@@ -1,12 +1,18 @@
 @import "tailwindcss";
+
+
 @theme {
     --color-White: hsl(0, 0%, 100%);
     --color-Grey100: hsl(214, 17%, 92%);
     --color-Grey200: hsl(0, 0%, 81%);
     --color-Grey400: hsl(224, 10%, 45%);
     --color-Grey500: hsl(217, 19%, 35%);
+    --color-Purple50: hsl(260, 100%, 95%);
+    --color-Purple300: hsl(264, 82%, 80%);
+    --color-Purple500: hsl(263, 55%, 52%);
     --color-Darkblue: hsl(219, 29%, 14%);
     --color-Black:hsl(0, 0%, 7%);
-    --font-display:[Barlow Semi Condensed];
+    --font-display:"Barlow Semi Condensed";
     --text-text:13px;
+    --shadow-shadow:[0_70px_0_0_Black];
 }

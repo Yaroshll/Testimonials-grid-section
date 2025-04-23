@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Daniel Clifford
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <!-- Daniel Clifford
   Verified Graduate
 
   I received a job offer mid-course, and the subjects I learned were current, if not more so, 
@@ -70,10 +77,110 @@
   could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
   experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
   100% recommend! ”
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+   -->
+
+    <div class="xl:h-screen flex justify-center xl:items-center bg-White font-display ">
+      
+      <div
+        class=" grid  p-5 xl:grid-cols-4 xl:grid-rows-2  gap-8  [&_div]:max-w-[300px] xl:[&_div]:max-w-[1000px] [&_div]:rounded-lg xl:w-[1155px] xl:h-[650px] "
+      >
+     
+        <div class="relative xl:row-span-1 xl:col-span-2  order-1  bg-Purple500 grid gap-3 p-[30px] text-White xl:gap-2 shadow-Grey500 shadow-2xl ">
+          <img class="absolute  right-16 opacity-60" src="./images/bg-pattern-quotation.svg" alt="">
+          <div class="flex gap-4">
+            <img class="rounded-full outline-2 outline-Purple300 size-10" src="./images/image-daniel.jpg" alt="image-daniel" />
+            <p class="leading-5  font-semibold font-display">Daniel Clifford <br> <span class="text-text font-medium text-Grey200"> Verified Graduate</span></p>
+            
+          </div>
+          <p class="font-semibold text-[20px] leading-6  ">
+            I received a job offer mid-course, and the subjects I learned were
+            current, if not more so, in the company I joined. I honestly feel I
+            got every penny’s worth.
+          </p>
+          <p class="text-text font-medium text-Grey200">
+             “ I was an EMT for many years before I joined the bootcamp. I’ve
+            been looking to make a transition and have heard some people who had
+            an amazing experience here. I signed up for the free intro course
+            and found it incredibly fun! I enrolled shortly thereafter. The next
+            12 weeks was the best - and most grueling - time of my life. Since
+            completing the course, I’ve successfully switched careers, working
+            as a Software Engineer at a VR startup. ” 
+          </p>
+        </div>
+        <div class="xl:col-span-1 xl:row-span-1 order-2 bg-Grey500 grid gap-3 p-[30px] text-White shadow-2xl shadow-Grey500">
+          <div class="flex gap-4">
+            <img class="rounded-full outline-2 outline-Purple50 size-10" src="./images/image-jonathan.jpg" alt="image-jonathan" />
+            <p class="leading-5  font-semibold font-display text-Grey100"> Jonathan Walters <br> <span class="text-text font-medium text-Grey200">  Verified Graduate</span></p>
+            
+          </div>
+          <p class="font-semibold text-[20px] leading-6 ">
+            The team was very supportive and kept me motivated
+
+          </p>
+          <p class="text-text font-medium text-Grey200">
+          “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+            for a big company. This was one of the best investments I’ve made in myself. ”
+          
+          </p>
+        </div>
+        <div class="xl:col-span-1 xl:row-span-1 order-4 text-Grey500 grid gap-3 p-[30px] bg-White shadow-2xl shadow-Grey500">
+          <div class="flex gap-4">
+            <img class="rounded-full outline-2 outline-Grey100 size-10" src="./images/image-jeanette.jpg" alt="image-jonathan" />
+            <p class="leading-5  text-balance font-semibold font-display"> Jeanette Harmon <span class="text-text font-medium">  Verified Graduate</span></p>
+            
+          </div>
+          <p class="font-semibold text-[20px] leading-6">
+            An overall wonderful and rewarding experience
+
+
+          </p>
+          <p class="text-text font-medium text-Grey500">
+            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+            while doing something I love. ”
+          
+          
+          </p>
+        </div>
+        <div class="xl:col-span-2 xl:row-span-1 order-5 bg-Darkblue grid gap-3 p-[30px] text-Grey200 shadow-2xl shadow-Grey500 ">
+          <div class="flex gap-4">
+            <img class="rounded-full outline-2 outline-Purple500 size-10" src="./images/image-patrick.jpg" alt="image-daniel" />
+            <p class="leading-5  text-balance font-semibold font-display"> Patrick Abrams <br><span class="text-text font-medium"> Verified Graduate</span></p>
+            
+          </div>
+          <p class="font-semibold text-[20px] ">
+            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+  learning from their experiences was easy.
+          </p>
+          <p class="text-text font-medium text-pretty">
+            “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+            gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+            junior developer. The standard is above the rest. You will get the personal attention you need from 
+            an incredible community of smart and amazing people. ”
+          </p>
+        </div>
+        <div class="xl:col-span-1 xl:row-span-2 order-3  grid gap-3 p-[30px] bg-White shadow-2xl shadow-Grey500 ">
+          <div class="flex gap-4">
+            <img class="rounded-full outline-2 outline-Grey100 size-10" src="./images/image-kira.jpg" alt="image-daniel" />
+            <p class=" leading-5 font-semibold font-display text-Grey500 text-[20px]"> Kira Whittle <br> <span class="text-text font-medium text-Grey400">  Verified Graduate</span></p>
+            
+          </div>
+          <p class="font-semibold text-[20px] text-Grey500 leading-6">
+            Such a life-changing experience. Highly recommended!
+
+          </p>
+          <p class="text-text font-medium text-Grey400 ">
+            “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+            professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+            student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+            did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+            project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+            could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+            experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+            100% recommend! ”
+             
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
