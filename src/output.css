@@ -373,6 +373,11 @@
       grid-row: span 2 / span 2;
     }
   }
+  .xl\:block {
+    @media (width >= 80rem) {
+      display: block;
+    }
+  }
   .xl\:h-\[650px\] {
     @media (width >= 80rem) {
       height: 650px;
