@@ -210,6 +210,9 @@
   .grid {
     display: grid;
   }
+  .hidden {
+    display: none;
+  }
   .table {
     display: table;
   }
@@ -413,6 +416,34 @@
   .\[\&_div\]\:rounded-lg {
     & div {
       border-radius: var(--radius-lg);
+    }
+  }
+  .xl\:\[\&_div\]\:max-w-\[0px\] {
+    @media (width >= 80rem) {
+      & div {
+        max-width: 0px;
+      }
+    }
+  }
+  .xl\:\[\&_div\]\:max-w-\[10px\] {
+    @media (width >= 80rem) {
+      & div {
+        max-width: 10px;
+      }
+    }
+  }
+  .xl\:\[\&_div\]\:max-w-\[40px\] {
+    @media (width >= 80rem) {
+      & div {
+        max-width: 40px;
+      }
+    }
+  }
+  .xl\:\[\&_div\]\:max-w-\[400px\] {
+    @media (width >= 80rem) {
+      & div {
+        max-width: 400px;
+      }
     }
   }
   .xl\:\[\&_div\]\:max-w-\[1000px\] {
